@@ -1,0 +1,14 @@
+ {
+  "name": "todomvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mawarr",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^12.17.1"
+  }
+}
