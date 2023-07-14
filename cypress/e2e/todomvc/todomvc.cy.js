@@ -50,7 +50,7 @@ describe("todomvc app", () => {
             cy.get("span[class='todo-count']").find("strong").should("contain.text", 0)
         })
 
-        it("should add teks Clear completed", () => {
+        it("should add teks Clear completed todo item", () => {
             addNewItem("Mawar")
             addNewItem("Melati")
             cy.get("input[class='toggle']").check()
